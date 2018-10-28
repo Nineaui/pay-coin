@@ -1,0 +1,117 @@
+body {
+    background: #0083ff;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    .nav {
+        flex-direction: row;
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: center;
+        line-height: 64px;
+        background-color: #0083ff;
+        color: black;
+        .navhome,
+        .navsignup,
+        .navcurrent,
+        .navsignin {
+            img {
+                width: 46px;
+            }
+            display: inline-block;
+        }
+        .navhome {
+            margin-left: 18%;
+            float: left;
+            color: white !important;
+            font-size: 25px;
+        }
+        .navsignup,
+        .navcurrent,
+        .navsignin {
+            float: right;
+            color: rgba(255, 255, 255, .5);
+            margin-right: 2%;
+        }
+        .navcurrent {
+            margin-left: 20px;
+            margin-right: 18%;
+        }
+        a:hover {
+            color: rgba(255, 255, 255, .75)
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    background: #0083ff;
+    height: 537px;
+    padding: 70px 0 70px 0;
+    .coinIntro {
+        width: 50%;
+        flex: 0 1 auto;
+        margin-left: 18%;
+        text-align: left;
+        .conTitle {
+            padding: 10px 0 5px 0;
+            font-size: 2rem;
+            color: azure
+        }
+        .content {
+            padding: 10px 0 5px 0;
+            font-size: 1.2rem;
+            color: azure
+        }
+        .buttonabout {
+            width: 100%;
+            margin-top: 31px;
+        }
+        .contentmore {
+            padding: 10px 0 5px 0;
+            color: azure;
+            opacity: 0.5;
+            text-align: center
+        }
+    }
+    .introImg {
+        width: 50%;
+        flex: 0 1 auto;
+        margin-right: 18%;
+        text-align: right;
+        img {
+            width: 130%;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    .login-form {
+        width: 50%;
+        flex: 0 1 auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        margin-top: 12%;
+        margin-bottom: 16%;
+    }
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.signinto {
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
